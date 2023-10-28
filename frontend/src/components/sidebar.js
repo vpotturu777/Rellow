@@ -23,15 +23,15 @@ function Sidebar() {
                     d="M1024 1131q0-64-9-117.5t-29.5-103-60.5-78-97-28.5q-6 4-30 18t-37.5 21.5-35.5 17.5-43 14.5-42 4.5-42-4.5-43-14.5-35.5-17.5-37.5-21.5-30-18q-57 0-97 28.5t-60.5 78-29.5 103-9 117.5 37 106.5 91 42.5h512q54 0 91-42.5t37-106.5zm-157-520q0-94-66.5-160.5t-160.5-66.5-160.5 66.5-66.5 160.5 66.5 160.5 160.5 66.5 160.5-66.5 66.5-160.5zm925 509v-64q0-14-9-23t-23-9h-576q-14 0-23 9t-9 23v64q0 14 9 23t23 9h576q14 0 23-9t9-23zm0-260v-56q0-15-10.5-25.5t-25.5-10.5h-568q-15 0-25.5 10.5t-10.5 25.5v56q0 15 10.5 25.5t25.5 10.5h568q15 0 25.5-10.5t10.5-25.5zm0-252v-64q0-14-9-23t-23-9h-576q-14 0-23 9t-9 23v64q0 14 9 23t23 9h576q14 0 23-9t9-23zm256-320v1216q0 66-47 113t-113 47h-352v-96q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v96h-768v-96q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v96h-352q-66 0-113-47t-47-113v-1216q0-66 47-113t113-47h1728q66 0 113 47t47 113z"
                   ></path>
                 </svg>
-                <span class="mx-4 font-normal text-md">Dashboard</span>
+                <span class="mx-4 font-normal text-md">Rellow</span>
               </a>
               <div>
                 <p class="w-full pb-2 mb-4 ml-2 font-normal text-gray-300 border-b-2 border-gray-100 text-md">
-                  Thing 1
+                  Properties
                 </p>
                 <a
                   class="flex items-center justify-start p-2 my-4 font-thin text-gray-500 transition-colors duration-200 hover:text-gray-800 dark:text-gray-400 hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
-                  href="#"
+                  href="http://localhost:3000/realestate/manage"
                 >
                   <span class="text-left">
                     <svg
@@ -47,11 +47,11 @@ function Sidebar() {
                       ></path>
                     </svg>
                   </span>
-                  <span class="mx-4 font-normal text-md">somthing</span>
+                  <span class="mx-4 font-normal text-md">Manage</span>
                 </a>
                 <a
                   class="flex items-center justify-start p-2 my-4 font-thin text-gray-500 transition-colors duration-200 hover:text-gray-800 dark:text-gray-400 hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
-                  href="#"
+                  href="http://localhost:3000/realestate/dashboard"
                 >
                   <span class="text-left">
                     <svg
@@ -68,12 +68,32 @@ function Sidebar() {
                       ></path>
                     </svg>
                   </span>
-                  <span class="mx-4 font-normal text-md">something 2</span>
+                  <span class="mx-4 font-normal text-md">Dashboard</span>
+                </a>
+                <a
+                  class="flex items-center justify-start p-2 my-4 font-thin text-gray-500 transition-colors duration-200 hover:text-gray-800 dark:text-gray-400 hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
+                  href="http://localhost:3000/realestate/chat"
+                >
+                  <span class="text-left">
+                    <svg
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="m-auto"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill="#5e72e4"
+                        d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"
+                      />
+                    </svg>
+                  </span>
+                  <span class="mx-4 font-normal text-md">Chat</span>
                 </a>
               </div>
               <div>
                 <p class="w-full pb-2 mb-4 ml-2 font-normal text-gray-300 border-b-2 border-gray-100 text-md">
-                  thing 2
+                  Stock
                 </p>
                 <a
                   class="flex items-center justify-start p-2 my-4 font-thin text-gray-500 transition-colors duration-200 hover:text-gray-800 dark:text-gray-400 hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
@@ -93,7 +113,7 @@ function Sidebar() {
                       ></path>
                     </svg>
                   </span>
-                  <span class="mx-4 font-normal text-md">something</span>
+                  <span class="mx-4 font-normal text-md">Manage</span>
                 </a>
                 <a
                   class="flex items-center justify-start p-2 my-4 font-thin text-gray-500 transition-colors duration-200 hover:text-gray-800 dark:text-gray-400 hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
@@ -114,12 +134,12 @@ function Sidebar() {
                       ></path>
                     </svg>
                   </span>
-                  <span class="mx-4 font-normal text-md">test</span>
+                  <span class="mx-4 font-normal text-md">Dashboard</span>
                 </a>
               </div>
               <div>
                 <p class="w-full pb-2 mb-4 ml-2 font-normal text-gray-300 border-b-2 border-gray-100 text-md">
-                  Thing
+                  Crypto
                 </p>
                 <a
                   class="flex items-center justify-start p-2 my-4 font-thin text-gray-500 transition-colors duration-200 hover:text-gray-800 dark:text-gray-400 hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
@@ -139,33 +159,13 @@ function Sidebar() {
                       ></path>
                     </svg>
                   </span>
-                  <span class="mx-4 font-normal text-md">Amazing</span>
-                </a>
-                <a
-                  class="flex items-center justify-start p-2 my-4 font-thin text-gray-500 transition-colors duration-200 hover:text-gray-800 dark:text-gray-400 hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
-                  href="#"
-                >
-                  <span class="text-left">
-                    <svg
-                      width="20"
-                      height="20"
-                      fill="currentColor"
-                      class="m-auto"
-                      viewBox="0 0 2048 1792"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill="#5e72e4"
-                        d="M960 0l960 384v128h-128q0 26-20.5 45t-48.5 19h-1526q-28 0-48.5-19t-20.5-45h-128v-128zm-704 640h256v768h128v-768h256v768h128v-768h256v768h128v-768h256v768h59q28 0 48.5 19t20.5 45v64h-1664v-64q0-26 20.5-45t48.5-19h59v-768zm1595 960q28 0 48.5 19t20.5 45v128h-1920v-128q0-26 20.5-45t48.5-19h1782z"
-                      ></path>
-                    </svg>
-                  </span>
-                  <span class="mx-4 font-normal text-md">somthing</span>
+                  <span class="mx-4 font-normal text-md">Manage</span>
                 </a>
               </div>
+              <div className="flex items-center pb-5"></div>
               <div>
                 <a
-                  class="flex items-center justify-start align-bottom pt-10 p-2 my-4 font-thin text-gray-500 transition-colors duration-200 hover:text-gray-800 dark:text-gray-400 hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
+                  class="flex items-center justify-start align-bottom p-2 my-4 font-thin text-gray-500 transition-colors duration-200 hover:text-gray-800 dark:text-gray-400 hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
                   href="#"
                 >
                   <span class="text-left">
