@@ -1,3 +1,4 @@
+import Chat from "./components/realestate/Chat";
 import Dashboard from "./components/realestate/Dashboard";
 import RealestatePage from "./components/realestate/RealestatePage";
 import Sidebar from "./components/sidebar";
@@ -14,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/realestate/manage" element={<RealestatePage />} />
             <Route path="/realestate/dashboard" element={<Dashboard />} />
-            <Route path="/realestate/chat" element={<h1>Chat</h1>} />
+            <Route path="/realestate/chat" element={<Chat />} />
             {/* <route path="*" element={<h1>Not Found</h1>} /> */}
           </Routes>
         </div>
