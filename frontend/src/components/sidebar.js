@@ -2,13 +2,13 @@ import React from "react";
 
 function Sidebar() {
   return (
-    <div class="flex justify-start">
-      <div class="relative bg-gray-800 rounded-2xl my-2 mx-3 ">
+    <div class="flex justify-start ">
+      <div class="relative bg-gray-800 rounded-2xl my-2 mx-3">
         <div class="flex flex-col">
           <div class="h-max w-50 h-[98vh]">
             <nav class="px-6">
               <a
-                class="flex items-center justify-start p-2 my-6 text-white transition-colors duration-200 hover:text-gray-800 bg-gray-50 dark:bg-gray-600 dark:text-gray-400hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
+                class="flex items-center justify-start p-2 my-6 text-white transition-colors duration-200 hover:text-gray-800 bg-gray-50 dark:bg-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600"
                 href="#"
               >
                 <svg

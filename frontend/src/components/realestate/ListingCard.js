@@ -4,7 +4,7 @@ function ListingCard(props) {
   const { images, title, price, location } = props;
 
   return (
-    <div className="listing-card bg-white border rounded-xl shadow overflow-hidden my-2 mx-2 w-60">
+    <div className="listing-card bg-white border rounded-xl shadow-lg overflow-hidden my-2 mx-2 w-60">
       <div className="image-carousel">
         {/* Insert a carousel or image slider component here to display property images */}
         {images.map((image, index) => (

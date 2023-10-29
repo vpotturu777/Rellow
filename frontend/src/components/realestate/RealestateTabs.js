@@ -10,7 +10,7 @@ function Tabs() {
               href="#"
               class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 "
             >
-              Home
+              Explore
             </a>
           </li>
           <li class="mr-2">
@@ -19,7 +19,7 @@ function Tabs() {
               class="inline-block p-4 text-purple-600 border-b-2 border-purple-600 rounded-t-lg active "
               aria-current="page"
             >
-              Calendar
+              Find
             </a>
           </li>
           <li class="mr-2">
@@ -27,7 +27,7 @@ function Tabs() {
               href="#"
               class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 "
             >
-              Results
+              Buy
             </a>
           </li>
           <li class="mr-2">
@@ -35,7 +35,7 @@ function Tabs() {
               href="#"
               class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 "
             >
-              Live
+              Sell
             </a>
           </li>
         </ul>
